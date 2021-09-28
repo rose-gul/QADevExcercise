@@ -18,5 +18,5 @@
    1) A simple todo component
    1) A simple calculator component
    1) A simple counter component
-3) Write a test that succesfully tests both passes and failures for each component
+3) Write a test that succesfully tests both successes and failures for each component
 4) When done, commit your work to your clone of this repository. Add any instructions we need to build your work. Send us a link to your clone.
