@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656084580263' stop='1656084580377'>
+    <name>interaction with the webside</name>
+    <title>interaction with the webside</title>
+    <test-cases>
+        <test-case start='1656084580263' status='broken' stop='1656084580376'>
+            <name>enter value in a field</name>
+            <title>enter value in a field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+            </parameters>
+            <steps>
+                <step start='1656084580267' status='broken' stop='1656084580376'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='720b5198-3309-438c-9b0f-aa0ee4a6e5bb-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps>
+                        <step start='1656084580276' status='broken' stop='1656084580376'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='034c747b-75c0-440f-8b4f-795f81edcc08-attachment.json' type='application/json' size='54'/>
+                            </attachments>
+                            <steps>
+                                <step start='1656084580278' status='broken' stop='1656084580376'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='a1ddbceb-e1d5-4ad6-b772-f58ef8d6790b-attachment.json' type='application/json' size='57'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1656084580282' status='broken' stop='1656084580376'>
+                                            <name>GET /session/:sessionId/screenshot</name>
+                                            <title>GET /session/:sessionId/screenshot</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1656084580286' status='passed' stop='1656084580375'>
+                                                    <name>POST /session/:sessionId/url</name>
+                                                    <title>POST /session/:sessionId/url</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='af11fa83-89c7-4a1c-8eb9-9b3cb300f33a-attachment.json' type='application/json' size='44'/>
+                                                        <attachment title='Screenshot' source='a48b9aed-a588-457a-935a-d9a65c6eb5f9-attachment.png' type='image/png' size='5199'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Counter is not defined</message>
+                <stack-trace>ReferenceError: Counter is not defined
+                    at Context.&lt;anonymous> (C:\Users\adokm\OneDrive\Desktop\QADevExcercise\test\components.js:14:21)
+                    at Context.executeAsync (C:\Users\adokm\OneDrive\Desktop\QADevExcercise\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\adokm\OneDrive\Desktop\QADevExcercise\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
